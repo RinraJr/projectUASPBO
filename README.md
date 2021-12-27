@@ -92,4 +92,35 @@ classDiagram
    
 ## ERD Diagram
 
+```
+erDiagram
+            Nasbaah ||--|{ REKENING : "has"
+            Nasbaah ||..|| INDIVIDU : is
+            Nasbaah ||--|| PERUSAHAAN : is
+            
+
+            REKENING{
+                int noRekening
+                double saldo
+                int id_nasabah
+            }
+
+            Nasbaah {
+                int idNasabah
+                string nama
+                string alamat
+            }
+            
+            INDIVIDU{
+                int id_nasabah
+                long nik
+                long npwp
+            }
+            PERUSAHAAN{
+                int id_nasabah
+                string nib
+            }
+            
+```
+
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgICAgICAgICBOYXNiYWFoIHx8LS18eyBSRUtFTklORyA6IFwiaGFzXCJcbiAgICAgICAgICAgIE5hc2JhYWggfHwuLnx8IElORElWSURVIDogaXNcbiAgICAgICAgICAgIE5hc2JhYWggfHwtLXx8IFBFUlVTQUhBQU4gOiBpc1xuICAgICAgICAgICAgXG5cbiAgICAgICAgICAgIFJFS0VOSU5He1xuICAgICAgICAgICAgICAgIGludCBub1Jla2VuaW5nXG4gICAgICAgICAgICAgICAgZG91YmxlIHNhbGRvXG4gICAgICAgICAgICAgICAgaW50IGlkX25hc2FiYWhcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgTmFzYmFhaCB7XG4gICAgICAgICAgICAgICAgaW50IGlkTmFzYWJhaFxuICAgICAgICAgICAgICAgIHN0cmluZyBuYW1hXG4gICAgICAgICAgICAgICAgc3RyaW5nIGFsYW1hdFxuICAgICAgICAgICAgfVxuICAgICAgICAgICAgXG4gICAgICAgICAgICBJTkRJVklEVXtcbiAgICAgICAgICAgICAgICBpbnQgaWRfbmFzYWJhaFxuICAgICAgICAgICAgICAgIGxvbmcgbmlrXG4gICAgICAgICAgICAgICAgbG9uZyBucHdwXG4gICAgICAgICAgICB9XG4gICAgICAgICAgICBQRVJVU0FIQUFOe1xuICAgICAgICAgICAgICAgIGludCBpZF9uYXNhYmFoXG4gICAgICAgICAgICAgICAgc3RyaW5nIG5pYlxuICAgICAgICAgICAgfVxuICAgICAgICAgICAgIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRhcmsifSwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)](https://mermaid.live/edit/#eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgICAgICAgICBOYXNiYWFoIHx8LS18eyBSRUtFTklORyA6IFwiaGFzXCJcbiAgICAgICAgICAgIE5hc2JhYWggfHwuLnx8IElORElWSURVIDogaXNcbiAgICAgICAgICAgIE5hc2JhYWggfHwtLXx8IFBFUlVTQUhBQU4gOiBpc1xuICAgICAgICAgICAgXG5cbiAgICAgICAgICAgIFJFS0VOSU5He1xuICAgICAgICAgICAgICAgIGludCBub1Jla2VuaW5nXG4gICAgICAgICAgICAgICAgZG91YmxlIHNhbGRvXG4gICAgICAgICAgICAgICAgaW50IGlkX25hc2FiYWhcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgTmFzYmFhaCB7XG4gICAgICAgICAgICAgICAgaW50IGlkTmFzYWJhaFxuICAgICAgICAgICAgICAgIHN0cmluZyBuYW1hXG4gICAgICAgICAgICAgICAgc3RyaW5nIGFsYW1hdFxuICAgICAgICAgICAgfVxuICAgICAgICAgICAgXG4gICAgICAgICAgICBJTkRJVklEVXtcbiAgICAgICAgICAgICAgICBpbnQgaWRfbmFzYWJhaFxuICAgICAgICAgICAgICAgIGxvbmcgbmlrXG4gICAgICAgICAgICAgICAgbG9uZyBucHdwXG4gICAgICAgICAgICB9XG4gICAgICAgICAgICBQRVJVU0FIQUFOe1xuICAgICAgICAgICAgICAgIGludCBpZF9uYXNhYmFoXG4gICAgICAgICAgICAgICAgc3RyaW5nIG5pYlxuICAgICAgICAgICAgfVxuICAgICAgICAgICAgIiwibWVybWFpZCI6IntcbiAgXCJ0aGVtZVwiOiBcImRhcmtcIlxufSIsInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
