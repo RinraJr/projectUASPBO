@@ -7,7 +7,7 @@ Anggota :
 4. Raesha Salsabila           - 1957051006
 
 Pembagian Tugas :
-- Saddam Surya Mardiansyah   : 
+- Saddam Surya Mardiansyah   : Membuat dan menghubungkan program dengan database MySQL, Mendesain dan membuat GUI menggunakan JafaFX dan Scene Builde
 - Bagus Tito Dwi Saputra     : 
 - Mahesa Yudhistira          : 
 - Raesha Salsabila           : 
