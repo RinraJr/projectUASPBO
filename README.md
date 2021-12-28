@@ -14,7 +14,7 @@ Pembagian Tugas :
    
 ## Class Diagram
 
-```UML
+```
 classDiagram
 
   Nasabah <|-- Individu
