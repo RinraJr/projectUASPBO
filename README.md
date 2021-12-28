@@ -7,10 +7,10 @@ Anggota :
 4. Raesha Salsabila           - 1957051006
 
 Pembagian Tugas :
-- Mahesa Yudhistira          : 
-- Raesha Salsabila           : 
-- Bagus Tito Dwi Saputra     : 
-- Saddam Surya Mardiansyah   : Membuat dan menghubungkan program dengan database MySQL, Mendesain dan membuat GUI menggunakan JafaFX dan Scene Builder
+- Mahesa Yudhistira          : Membuat Class Diagram dan ER Diagram sesuai yang ada dalam project
+- Raesha Salsabila           : Menginisialisasi dan mengembangkan class yang digunakan dalam project
+- Bagus Tito Dwi Saputra     : Membuat dan menghubungkan program dengan database MySQL,
+- Saddam Surya Mardiansyah   : Mendesain dan membuat GUI menggunakan JafaFX dan Scene Builder
    
 ## Class Diagram
 
